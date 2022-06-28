@@ -18,7 +18,7 @@ pp Store.average(:annual_revenue)
 pp Store.average("annual_revenue")
 # 3. Output the number of stores that are generating $1M or more in annual sales. 
 #Hint: Chain together where and size (or count) Active Record methods.
-pp @test = Store.where("annual_revenue > 1000000")
-pp @test.count
+pp @high_earners = Store.where("annual_revenue > 1000000")
+pp @high_earners.count
 pp Store.where("annual_revenue > ?", 1000000).count
 
