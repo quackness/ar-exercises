@@ -11,9 +11,6 @@ p @store3 = Store.find_by(id: 3)
 
 puts Store.count()
 
-
-
-
 # Exercise 3: Delete the third store
 # Load the third store (into @store3) as you did the other two before.
 # Using Active Record's destroy method, delete the store from the database.
