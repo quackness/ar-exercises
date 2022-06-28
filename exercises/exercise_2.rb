@@ -14,6 +14,7 @@ puts "----------"
 p Store.first
 p @store1 = Store.find_by(id: 1)
 p Store.find_by(id: 2)
+p @store2 = Store.find_by(id: 2)
 p @store1.update(name: 'Venus')
 
 
