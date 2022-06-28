@@ -33,7 +33,7 @@ puts "----------"
 #in previous exercises. 
 # Create a bunch under @store1 (Burnaby) and @store2 (Richmond). 
 #Eg: @store1.employees.create(...).
-
+#
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
 @store1.employees.create(first_name: "Jakub", last_name: "Dubaj", hourly_rate: 80)
 @store2.employees.create(first_name: "Ada", last_name: "Legut", hourly_rate: 90)
